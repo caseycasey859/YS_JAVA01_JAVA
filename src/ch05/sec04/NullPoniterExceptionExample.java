@@ -1,6 +1,6 @@
 package ch05.sec04;
 
-public class NumPoniterExceptionExample {
+public class NullPoniterExceptionExample {
 
 	public static void main(String[] args) {
 		 int[] intArr = null;
@@ -10,6 +10,7 @@ public class NumPoniterExceptionExample {
 		 
 		 String str = "홍길동";
 		 System.out.println("총 문자 수: "+ str.length() );
+		 
 	}
 
 }
