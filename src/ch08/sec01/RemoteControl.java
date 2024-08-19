@@ -21,5 +21,9 @@ public interface RemoteControl {
 			System.out.println("묵음처리 해제함");			
 		}
 	}
+	
+	static void changeBattery() {
+		System.out.println("리모트 건전지를 교환합니다.");
+	}
 
 }
