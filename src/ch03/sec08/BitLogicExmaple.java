@@ -17,6 +17,7 @@ public class BitLogicExmaple {
 		System.out.printf("~ %d = %d \n", x, ~x);
 		System.out.printf("~ %x = %x \n", x, ~x);
 		System.out.println("-----------------------");
+
 	}
 
 }

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class IfTestExample {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);//4444
+		Scanner scan = new Scanner(System.in);
 		System.out.print("점수: ");
 		String input = scan.nextLine();
 		int num = Integer.parseInt(input);
@@ -20,8 +20,7 @@ public class IfTestExample {
 		} else if(num>=60) {
 			System.out.println("D");				
 		} else  {
-			System.out.println("F");   
-	
+			System.out.println("F");			
 		}
 
 	}
