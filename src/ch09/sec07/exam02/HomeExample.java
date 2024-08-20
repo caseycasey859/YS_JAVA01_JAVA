@@ -10,7 +10,7 @@ public class HomeExample {
 			new RemoteControl() {
 				@Override
 				public void turnOn() {
-					System.out.println("난방기를 켭니   다.");			
+					System.out.println("난방기를 켭니다.");			
 				}
 				@Override
 				public void turnOff() {
