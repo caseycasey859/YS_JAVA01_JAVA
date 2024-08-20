@@ -1,18 +1,30 @@
 package ch06.sec11;
 
-public class Korean {
-	final String nation = "대한민국";
-	final String ssn;
-	
-	String name;
-	
-	public Korean(String ssn, String name) {
-		this.ssn = ssn;
-		this.name = name;
-	}
+public class KoreanExample {
 
-	public Korean() {
-		// TODO Auto-generated constructor stub
+	public static void main(String[] args) {
+		Korean yjh = new Korean("123456","김지민");
+		//yjh.ssn = "961011-2151564";
+		yjh.name = "김지민";
+		
+		System.out.printf("%s %s %s\n",
+				yjh.nation,
+				yjh.ssn,
+				yjh.name);
+
+//		yjh.nation = "미국";
+		yjh.name = "홍지민";	
+//		yjh.ssn = "000000-2222222";	
+	
+		System.out.printf("%s %s %s\n",
+				yjh.nation,
+				yjh.ssn,
+				yjh.name);
+		
+		
+		
+		
+
 	}
 
 }
