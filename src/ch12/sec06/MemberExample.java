@@ -12,6 +12,7 @@ public class MemberExample {
 		mbr.setAge(3);
 		
 		System.out.println(mbr.getName());
+	
 
 	}
 
